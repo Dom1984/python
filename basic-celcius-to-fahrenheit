@@ -1,0 +1,11 @@
+from __future__ import division
+
+celciusInput = raw_input("What is the temperature in degrees celcius? ")
+
+celciusFloat = float(celciusInput)
+
+fahrenheitValue = (celciusFloat *(9/5)) + 32
+
+fahrenheitInput = str(fahrenheitValue)
+
+print("The current temperature in fahrenheit is: " + fahrenheitInput + " degrees.")
